@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+  font-size: 50px;
+}
+
+.poker-table {
+  position: relative;
+  width: 980px;
+  height: 595px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c0/Texas_Hold%27em_Poker_Table_with_Blinds.svg");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  width: 180px;
+  height: 260px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 2px 2px 3px #888888;
+  background: #fcf9f7;
+  margin-top: 40px !important;
+}
